@@ -24,3 +24,13 @@
  - type : HTML태그가 문자열로 들어가거나 또 다른 리액트 컴포넌트가 들어감
  - props : 여러 가지 속성
  - children : 해당 엘리먼트의 자식 엘리먼트들
+
+## React Component
+ - 자바스크립트 함수와 비슷하지만 Props를 입력으로 리액트 엘리먼트를 출력으로 가짐
+ - Component의 이름은 항상 대문자로 시작해야함
+
+## Props의 개념
+ - Propertys의 준말, 리액트 컴포넌트의 속성을 뜻함
+ - Read-Only : 값을 변경할 수 없음
+ - All React components must act like pure functions with respect to thier props
+ - 같은 props에 대하여 항상 같은 return값을 가져야함 -> parameter 값을 바꿀 수 없음을 의미하기도함
