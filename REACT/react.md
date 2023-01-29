@@ -33,4 +33,4 @@
  - Propertys의 준말, 리액트 컴포넌트의 속성을 뜻함
  - Read-Only : 값을 변경할 수 없음
  - All React components must act like pure functions with respect to thier props
- - 같은 props에 대하여 항상 같은 return값을 가져야함 -> parameter 값을 바꿀 수 없음을 의미함
+ - 같은 props에 대하여 항상 같은 return값을 가져야함 -> parameter 값을 바꿀 수 없음
