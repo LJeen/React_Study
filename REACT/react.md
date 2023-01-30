@@ -27,7 +27,7 @@
 
 ## React Component
  - 자바스크립트 함수와 비슷하지만 Props를 입력으로 리액트 엘리먼트를 출력으로 가짐
- - Component의 이름은 항상 대문자로 시작해야함
+ - Component의 이름은 항상 대문자로 시작
 
 ## Props의 개념
  - Propertys의 준말, 리액트 컴포넌트의 속성을 뜻함
