@@ -34,3 +34,13 @@
  - Read-Only : 값을 변경할 수 없음
  - All React components must act like pure functions with respect to thier props
  - 같은 props에 대하여 항상 같은 return값을 가져야함 -> parameter 값을 바꿀 수 없음
+
+## State
+ - 리액트 컴포넌트의 상태를 의미
+ - 리액트 컴포넌트의 변경 가능한 데이터
+ - 렌더링과 데이터 흐름에 관련 있는 값만 state에 포함, 그렇지 않은 값은 컴포넌트 인스턴스의 필드로 정의
+
+## State의 특징
+ - 하나의 자바스크립트 객체, 생성자(Constructor)에서 정의
+ - 클래스 컴포넌트 > this.state로정의 , 함수 컴포넌트 > useState()함수를 이용
+ - 직접 수정하지 않고 setState()함수를 이용하여 변수처럼 다룸
