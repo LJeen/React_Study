@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Counter from './hook/useState';
+import Counter2 from './hook/useEffect';
+import Accomodate from './hook/accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Accomodate />
   </React.StrictMode>
 );
 
