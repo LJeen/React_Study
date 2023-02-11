@@ -8,7 +8,7 @@
 ## create-react-app
  - npx create-react-app <your-project-name>
  - cd <your-project-name>
- - npm start
+ - npm start 
 
 ## 리액트 엘리먼트
  - Elements are the samllest building blocks of React apps
