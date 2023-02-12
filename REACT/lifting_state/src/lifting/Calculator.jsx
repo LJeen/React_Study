@@ -6,7 +6,7 @@ import TemperatureInput from "./TemperatureInput";
 function Calculator (props){
     const [temperature, setTemperature] = useState('');
     const [scale, setScale] = useState('c');
-
+    //
     // const handleChange = (event) => {
     //     setTemperature(event.target.value);
     // }
